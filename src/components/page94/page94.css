@@ -1,0 +1,86 @@
+.Page94{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.pg94-img{
+    width: 100%;
+    height: 100%;
+}
+
+.pg94-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pg94-dtls{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 15px;
+    display: flex;
+}
+
+.pos-div{
+    width: 650px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.pos-div h1,
+.pos-div p{
+    margin: 15px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.pos-div a{
+    color: pink;
+    font-style: italic;
+    font-size: 1.8rem;
+    font-weight: 100;
+    text-decoration: none;
+    animation: tick 3s infinite;
+}
+
+.pos-div a:hover{
+    animation-play-state: paused;
+}
+
+@keyframes tick{
+    0%{
+        opacity: 0.3;
+    }
+
+    50%{
+        opacity: .5;
+    }
+
+    100%{
+        opacity: 0.3;
+    }
+}
+
+@media (max-width: 768px){
+    .pos-div{
+        height: 390px;
+    }
+}
+
+@media (max-width: 425px) {
+    .pos-div h1,
+    .pos-div p,
+    .pos-div a {
+        font-size: .9rem;
+    }
+}

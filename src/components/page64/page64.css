@@ -1,0 +1,159 @@
+@font-face {
+    font-family: transformers;
+    src: url('../../font/TransformersMovie-y9Ad.ttf');
+}
+
+.Page64{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.one{
+    width: 33.3%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.name-one-context{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-one-context h1,
+.name-one-context h2,
+.name-one-context h3,
+.name-one-context h4,
+.name-one-context h5{
+    font-family: transformers;
+    margin: 15px;
+    color: #000;
+    font-size: 3.8rem;
+}
+
+.two{
+    width: 33.4%;
+    height: 100%;
+    background-color: white;
+}
+
+.two img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.three{
+    width: 33.3%;
+    height: 100%;
+}
+
+.three-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.three-text p{
+    font-family: transformers;
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.three-text a{
+    font-family: transformers;
+    margin: 15px 0;
+    font-size: 1.9rem;
+    text-decoration: none;
+    color: red;
+    animation: glitch 2.5s infinite;
+}
+
+@keyframes glitch{
+    0%{
+        opacity: 0.5;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0.4;
+    }
+}
+
+.three-text a:hover{
+    animation-play-state: paused;
+}
+
+@media (max-width: 768px){
+    .name-one-context h1,
+    .name-one-context h2,
+    .name-one-context h3,
+    .name-one-context h4,
+    .name-one-context h5{
+        font-size: 1.9rem;
+    }
+
+    .three-text p,
+    .three-text a{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .name-one-context h1,
+    .name-one-context h2,
+    .name-one-context h3,
+    .name-one-context h4,
+    .name-one-context h5 {
+        font-size: 0.9rem;
+    }
+
+    .three-text p,
+    .three-text a {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .name-one-context h1,
+    .name-one-context h2,
+    .name-one-context h3,
+    .name-one-context h4,
+    .name-one-context h5 {
+        font-size: 0.6rem;
+    }
+
+    .three-text p,
+    .three-text a {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .name-one-context h1,
+    .name-one-context h2,
+    .name-one-context h3,
+    .name-one-context h4,
+    .name-one-context h5 {
+        font-size: 0.65rem;
+    }
+
+    .three-text p,
+    .three-text a {
+        font-size: 0.6rem;
+    }
+}

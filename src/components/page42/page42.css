@@ -1,0 +1,153 @@
+.Page42{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.txt{
+    flex: .7;
+}
+
+.pg42-lbl-top{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pg42-lbl-top h1{
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.pg42-lbl-top h2{
+    margin: 15px;
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: 4px;
+
+}
+
+
+.pg42-lbl-top-text{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pg42-ln-top {
+    width: 100%;
+    height: 5%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lyn{
+    width: 350px;
+    height: 1px;
+    background-color: #000;
+}
+
+.pg42-lbl-top-text h1{
+    font-size: 3.8rem;
+    font-weight: 100;
+}
+
+.pg42-lbl-top-text p{
+    font-style: italic;
+    font-weight: 800;
+    letter-spacing: 3px;
+    width: 90%;
+}
+
+.pg42-txt-cntnt{
+    width:  100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pg42-txt-cntnt p{
+    width: 90%;
+    margin: 20px 0;
+    font-size: 1.1rem;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.page42-link-div{
+    width: 100%;
+    height: 26.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+
+.imgs{
+    flex: .4;
+    background-color: pink;
+}
+
+.imgs img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px){
+    .pg42-lbl-top h1,
+    .pg42-lbl-top h2{
+        font-size: 1.2rem;
+    }
+
+    .pg42-lbl-top-text h1{
+        font-size: 1.9rem;
+    }
+
+    .pg42-lbl-top-text p{
+        font-size: .6rem;
+    }
+
+    .pg42-txt-cntnt p{
+        font-size: .65rem;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .pg42-lbl-top h1,
+    .pg42-lbl-top h2 {
+        font-size: .9rem;
+    }
+
+    .pg42-lbl-top-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .pg42-lbl-top-text p {
+        font-size: .5rem;
+    }
+
+    .pg42-txt-cntnt p {
+        font-size: .6rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .imgs{
+        display: none;
+    }
+}

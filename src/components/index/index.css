@@ -1,0 +1,144 @@
+.Intro{
+    height: 100vh;
+    width: 100%;
+}
+
+.index-name{
+    width: 100%;
+    height: 3%;
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-name h1{
+    font-size: 4.9rem;
+    font-weight: 100;
+}
+
+.index-sub{
+    width: 100%;
+    height: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-sub h1{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.index-sub h2{
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.pos-line{
+    width: 100%;
+    height: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-line{
+    width: 250px;
+    height: 1px;
+    background-color: #000;
+}
+
+.index-dscrpt{
+    width: 100%;
+    height: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-dscrpt h1{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.index-1,
+.index-2,
+.index-3,
+.index-4,
+.index-5,
+.index-6{
+    width:100%;
+    height: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pos a{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.pos a:hover{
+    color: gray;
+    opacity: 0.6;
+}
+
+.pos h1{
+    margin-left: -10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.pos h2{
+    font-weight: 100;
+}
+
+.index-img{
+    width: 550px;
+    height: 10px;
+}
+
+.img1 a{
+    width: 100%;
+    height: 50%;
+}
+
+.img1 a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px){
+    .Intro{
+        width: 100%;
+        height: 100%;
+    }
+
+    .index-name h1{
+        font-size: 2.9rem;
+    }
+
+    .index-sub h1,
+    .index-sub h2{
+        font-size: .9rem;
+    }
+
+    .pos h1,
+    .pos h2{
+        font-size: 1.1rem;
+    }
+}

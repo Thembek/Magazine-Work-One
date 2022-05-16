@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Magazine-Work-One/static/css/main.108c8d60.css",
+    "main.js": "/Magazine-Work-One/static/js/main.e3a8beea.js",
+    "static/media/camera.png": "/Magazine-Work-One/static/media/camera.1ec9c3aa58d8c6255063.png",
+    "static/media/pexels-amin-imanifar-755721.jpg": "/Magazine-Work-One/static/media/pexels-amin-imanifar-755721.f86f3210bd2b4070fa12.jpg",
+    "static/media/TransformersMovie-y9Ad.ttf": "/Magazine-Work-One/static/media/TransformersMovie-y9Ad.812c15607e3e185b4525.ttf",
+    "index.html": "/Magazine-Work-One/index.html",
+    "main.108c8d60.css.map": "/Magazine-Work-One/static/css/main.108c8d60.css.map",
+    "main.e3a8beea.js.map": "/Magazine-Work-One/static/js/main.e3a8beea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.108c8d60.css",
+    "static/js/main.e3a8beea.js"
+  ]
+}
